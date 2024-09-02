@@ -28,13 +28,15 @@ From a terminal run the command `scoop install rustup`
 From a terminal run the command `rustup default stable`
 4) Install cmake (needed for Raylib build):
 From a terminal run the command `scoop install cmake`
-5) Install Build Tools for Visual Studio 2022:
+5) Install llvm (needed to fix a compile error with Raylib):
+From a terminal run the command `scoop install llvm`
+6) Install Build Tools for Visual Studio 2022:
 Click [this link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022) to download and install the tools.
-6) Install git:
+7) Install git:
 From a terminal run the command `scoop install git`
-7) Install VsCode:
+8) Install VsCode:
 From a terminal run the command: `scoop install vscode`
-8) Add the following VsCode extensions: 
+9) Add the following VsCode extensions: 
    - rust-analyzer
    - vscode-icons
    - Even Better TOML
