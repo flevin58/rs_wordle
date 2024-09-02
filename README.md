@@ -44,7 +44,22 @@ From a terminal run the command: `scoop install vscode`
   
 
 ### Linux
-T.B.D.
+1) Install rust:
+From a terminal run the command `apt install rustup`
+2) Setting the default toolchain:
+From a terminal run the command `rustup default stable`
+3) Install cmake (needed for Raylib build):
+From a terminal run the command `apt install cmake`
+4) Install git:
+From a terminal run the command `apt install git`
+5) Install VsCode:
+   - download the **.deb** package from [here](https://code.visualstudio.com/download)
+   - run the command: `apt install <packagername>.deb`
+6) Add the following VsCode extensions: 
+   - rust-analyzer
+   - vscode-icons
+   - Even Better TOML
+   - CodeLLDB
 
 ### MacOs
 T.B.D.
